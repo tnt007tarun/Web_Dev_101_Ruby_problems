@@ -1,6 +1,6 @@
 def translate (sentence)
 sry=sentence.split(" ")
-	word=sry[0]
+		word=sry[0]
 		ary = word.split("")
 		if ary[0]=="a" or ary[0]=="e" or ary[0]=="i" or ary[0]=="o" or ary[0]=="u"
 			word.concat("ay")
