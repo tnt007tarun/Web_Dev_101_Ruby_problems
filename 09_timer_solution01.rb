@@ -8,6 +8,7 @@ class Timer
     @seconds = 0
   end
 
+#the below lines are so test-driven that they don't solve the actual problem :P
   def time_string
   	if seconds < 10
     "00:00:0#{seconds}"
